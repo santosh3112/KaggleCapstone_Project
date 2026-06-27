@@ -51,3 +51,25 @@ Analyzes database performance
 Searches historical solutions
 Determines possible root cause
 Generates recommendations"
+
+🏗️ Architecture
+                         User
+                          |
+                          |
+                  OpsPilot Orchestrator
+                          |
+    
+        |                 |                    |
+        |                 |                    |
+   Log Analysis     Data Analyst        Knowledge Agent
+      Agent             Agent                Agent
+        |                 |                    |
+        |                 |                    |
+                          |
+                  Decision Agent
+                          |
+                          |
+              Recommendation Generator
+                          |
+                          |
+                  Incident Report
